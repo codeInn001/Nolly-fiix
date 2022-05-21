@@ -36,3 +36,31 @@ body {
     padding-left: 10px;
     font-size: 1.2rem;
 }
+
+.main {
+    background-color: #646FD4;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.movie-section {
+    width: 200px;
+    margin: 40px 80px;
+}
+
+.movie-details {
+    background-color: #242F9B;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.movie-details > * {
+    padding: 5px;
+    
+}
+
+.likes-number {
+    display: inline;
+}
