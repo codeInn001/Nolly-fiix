@@ -40,6 +40,8 @@ body {
 .main {
     background-color: #646FD4;
     display: flex;
+    justify-content: center;
+    align-content: center;
     flex-wrap: wrap;
 }
 
